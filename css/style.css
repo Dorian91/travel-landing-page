@@ -1,0 +1,158 @@
+body
+{
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: #3e3e3e;
+}
+
+/* Navigation list style */
+body #main-nav #navigation-list 
+{
+    margin: 0 auto;
+    text-align: right;
+    margin-right: 20px;
+}
+
+body #main-nav #navigation-list .menu-item
+{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 15px;
+}
+
+body #main-nav #navigation-list .menu-item a
+{
+    text-decoration: none;
+    color: #3e3e3e;
+    transition: 0.3s all ease-in-out;
+}
+
+body #main-nav #navigation-list .menu-item a:hover
+{
+    color: #ccc;
+}
+
+/* Main-header style*/
+body #main-header
+{
+    background-image: url(../img/birds-cold-conifer-917494.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+body #main-header #header-wrapper
+{
+    position: relative;
+    top: 25%;
+    left: 20%;
+    width: 35%;
+}
+body #main-header #header-wrapper h1
+{
+    font-size: 4em;
+    margin: 0 auto;
+    color: #3e3e3e;
+    margin-bottom: 200px;
+}
+
+body #main-header #header-wrapper p
+{
+    color: #ccc;
+}
+
+/* Info section style */
+body  #info-section
+{
+    display: flex;
+}
+
+body  #info-section .info-wrapper
+{
+    position: relative;
+    padding: 20px 120px 20px 40px;
+}
+
+body  #info-section .info-wrapper p
+{
+    font-size: 0.75em;
+    margin-bottom: 30px;
+}
+
+body  #info-section .info-wrapper .info-button
+{
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    color:#fff;
+    transition: 0.3s all ease-in-out;
+}
+
+body  #info-section #wrapper-one
+{
+    background-color: #f1f0ec;
+}
+
+body  #info-section #wrapper-two
+{
+    background-color: #f4f5f7;
+}
+
+body  #info-section #wrapper-three
+{
+    background-color: #eee;
+}
+
+body #info-section #wrapper-one #button-one
+{
+    background-color: #ae9e8c;
+}
+
+body #info-section #wrapper-one #button-one:hover
+{
+    background-color: #9f886f;
+}
+
+body #info-section #wrapper-two #button-two
+{
+    background-color: #a1a9af;
+}
+
+body #info-section #wrapper-two #button-two:hover
+{
+    background-color: #8e959a;
+}
+
+body #info-section #wrapper-three #button-three
+{
+    background-color: #2f2e2f;
+}
+
+body #info-section #wrapper-three #button-three:hover
+{
+    background-color: #191718;
+}
+
+/* Font awesome style*/
+body  #info-section .info-wrapper i 
+{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 2.5em;
+}
+
+body  #info-section .info-wrapper .fa-map
+{
+    color: #ae9e8c;
+}
+
+body  #info-section .info-wrapper .fa-compass
+{
+    color: #a1a9af;
+}
+
+body  #info-section .info-wrapper .fa-flag
+{
+    color: #2f2e2f;
+}
